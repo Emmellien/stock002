@@ -184,8 +184,8 @@ const ProductIn = () => {
                     <td className="p-4 font-mono text-center text-slate-500 font-semibold">{p.ProductInId}</td>
                     <td className="p-4 font-medium text-slate-900">{p.ProductName}</td>
                     <td className="p-4 text-center font-semibold text-slate-700">{p.Quantity}</td>
-                    <td className="p-4 text-right text-slate-600">${Number(p.UnitPrice).toFixed(2)}</td>
-                    <td className="p-4 text-right font-bold text-emerald-600">${Number(p.TotalPrice).toFixed(2)}</td>
+                    <td className="p-4 text-right text-slate-600">Rwf{Number(p.UnitPrice).toFixed(2)}</td>
+                    <td className="p-4 text-right font-bold text-emerald-600">Rwf{Number(p.TotalPrice).toFixed(2)}</td>
                     <td className="p-4 text-center text-slate-500">
                       {new Date(p.Date).toLocaleDateString()}
                     </td>
@@ -210,7 +210,7 @@ const ProductIn = () => {
                   </span>
                 </div>
                 <div className="flex justify-between items-center pt-2 border-t border-dashed border-slate-100 text-xs">
-                  <span className="text-slate-500">Unit Cost: ${Number(p.UnitPrice).toFixed(2)}</span>
+                  <span className="text-slate-500">Unit Cost: Rwf{Number(p.UnitPrice).toFixed(2)}</span>
                   <span className="font-bold text-emerald-600 text-sm">Batch Cost: ${Number(p.TotalPrice).toFixed(2)}</span>
                 </div>
               </div>

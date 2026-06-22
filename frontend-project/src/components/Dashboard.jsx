@@ -208,13 +208,7 @@ function Dashboard() {
         {/* ================= FOOTER ACTIONS ================= */}
         <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4 pb-10">
 
-          <Link
-            to="/home"
-            className="bg-gray-800 hover:bg-gray-900 transition text-white px-6 py-3 rounded-xl flex items-center justify-center gap-2"
-          >
-            <Home size={18} />
-            Back Home
-          </Link>
+          
 
           <Link
             to="/reports"

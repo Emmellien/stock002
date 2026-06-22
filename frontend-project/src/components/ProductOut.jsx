@@ -368,12 +368,12 @@ const ProductOut = () => {
                           </td>
 
                           <td className="p-4 text-right">
-                            $
+                            Rwf
                             {Number(p.UnitPrice).toFixed(2)}
                           </td>
 
                           <td className="p-4 text-right font-bold text-green-600">
-                            $
+                            Rwf
                             {Number(p.TotalPrice).toFixed(2)}
                           </td>
 
